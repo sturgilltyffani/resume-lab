@@ -1,0 +1,117 @@
+* {
+    font-family: 'Times New Roman', sans-serif;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    background-color: #A7C4CA;
+}
+
+.smallboldtitles {
+    font-weight: bold;
+    margin-bottom: -20px;
+    margin-top: 40px;
+}
+
+h1, h4, h5 {
+    font-weight: bold;
+}
+
+#edup {
+    margin-top: 40px;
+}
+
+.expp { 
+    padding: 0;
+    margin: 0;
+}
+
+.expdate {
+    font-style: italic;
+    color: #A7C4CA;
+    padding: 0;
+    margin: 0;
+}
+
+.shift {
+    padding: 0px 4em;
+}
+
+.center-align {
+    font-style: bold;
+
+}
+
+.contact_form {
+    border-top: 10px;
+    border-bottom: 30px;
+    padding-left: 20px;
+    margin-left: 70px;
+    padding-right: 20px;
+    margin-right: 70px;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    background-color: white; /* To overide Materialize's Transparent feature */
+    padding: 12px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+    opacity: 100%;
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=send] {
+    background-color:white;
+    color: #A3C5CF;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=send]:hover {
+    background-color: #A3C5CF;
+}
+
+/* Add a background color and some padding around the form */
+.contact_form {
+    border-radius: 5px;
+    background-color: #A3C5CF;
+    padding: 20px;
+}
+
+#footer-colored {
+    color: #A3C5CF;
+}
+
+.coloredbreaks {
+    border: 1px solid #A3C5CF;
+ }
+
+ .space-before-text {
+     margin-bottom: 30px;
+ }
+
+ .btn {
+     margin-left: 300px;
+ }
+
+ form {
+    border-top: 10px;
+    border-bottom: 30px;
+    padding-left: 20px;
+    margin-left: 70px;
+    padding-right: 20px;
+    margin-right: 70px;
+ }
